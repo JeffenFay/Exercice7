@@ -1,0 +1,33 @@
+fieldset[id="field1"], legend[id="leg1"] {
+  background-color:#2574A9;
+}
+
+fieldset[id="field2"], legend[id="leg2"] {
+  background-color:#9A12B3;
+}
+
+fieldset[id="field3"], legend[id="leg3"] {
+  background-color:#DB0A5B;
+}
+
+input[type=text], input[type=email], input[type=number], input[type=radio], textarea, label {
+  margin-top: 0.1%;
+}
+
+input[type=number] {
+  width: 17.8%;
+}
+
+input[type=text], input[type=email], input[type=number], input[type=radio], textarea {
+    border-radius: 0px;
+}
+
+input[type=radio] {
+    margin-left: 4%;
+}
+
+textarea {
+    width: 15%;
+    height: 100px;
+    resize: none;
+}

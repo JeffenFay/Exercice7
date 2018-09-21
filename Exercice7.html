@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="Exercice7CSS.css" rel="stylesheet" media="all" type="text/css">
+    <title>Exercice 7 de Jeffen Faÿ</title>
+  </head>
+  <body>
+    <!-- Premier fieldset -->
+    <fieldset id="field1">
+      <legend id="leg1">Votre identité</legend> <!-- Titre du fieldset -->
+      <ol>
+        <li>
+          <label>Nom :</label>
+          <input type="text" placeholder="Nom" />
+        </li>
+        <li>
+          <label>Prénom :</label>
+          <input type="text" placeholder="Prénom" />
+        </li>
+        <li>
+          <label>Adresse e-mail :</label>
+          <input type="email" placeholder="Adresse e-mail" />
+        </li>
+      </ol>
+  </fieldset>
+  <!-- Deuxième fieldset -->
+  <fieldset id="field2">
+    <legend id="leg2">Adresse de livraison</legend> <!-- Titre du fieldset -->
+    <ol>
+      <li>
+        <label>Adresse :</label>
+        <textarea></textarea>
+      </li>
+      <li>
+        <label>Code postal :</label>
+        <input type="text" placeholder="Code postal" />
+      </li>
+      <li>
+        <label>Ville :</label>
+        <input type="email" placeholder="Ville" />
+      </li>
+    </ol>
+</fieldset>
+  <!-- Troisième fieldset -->
+  <fieldset id="field3">
+    <legend id="leg3">Informations de règlement</legend> <!-- Titre du fieldset -->
+    <ol>
+      <li>
+        <label>Type de carte bancaire :</label><br>
+        <input type="radio" >Visa<br>
+        <input type="radio" name="gender" value="male">Mastercard<br>
+      </li>
+      <li>
+        <label>Numéro de carte :</label>
+        <input type="number" placeholder="Numéro de carte" />
+      </li>
+      <li>
+        <label>Code de sécurité :</label>
+        <input type="number"placeholder="Code de sécurité" />
+      </li>
+      <li>
+        <label>Nom du titulaire :</label>
+        <input type="text" placeholder="Nom du titulaire" />
+      </li>
+    </ol>
+  </fieldset>
+  <input type="submit" value="J'achète">
+  </body>
+</html>
